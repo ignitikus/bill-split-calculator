@@ -20,6 +20,15 @@ function noParty (party){
     }
 }
 
+
 const total = overall * (tip) / 100 + overall;
 const result = total / noParty(party);
-console.log(result + tipOutput(tip))
+
+function notANumber(result){
+    if (isNaN(result)){
+    return `I'm sorry Dave, I'm afraid i can't process words.`;
+    } else {
+        return result;
+    }
+}
+console.log(isNaN(result) ? `I'm sorry Dave, I'm afraid i can't process words.` : result + tipOutput(tip))
