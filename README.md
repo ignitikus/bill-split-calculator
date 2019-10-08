@@ -14,4 +14,5 @@ In terminal:
 
     node bill-split-calculator yourTotal percentageOfTips howManyPeople
 
-For example
+For example:
+![an example][./Screenshot.png]
