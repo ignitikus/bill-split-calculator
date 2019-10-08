@@ -21,6 +21,5 @@ function noParty (party){
 }
 
 const total = overall * (tip) / 100 + overall;
-const result = total / noParty(party);
-
+const
 console.log(isNaN(result) ? `I'm sorry Dave, I'm afraid i can't process words.` : result + tipOutput(tip))
